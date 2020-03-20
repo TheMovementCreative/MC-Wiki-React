@@ -1,0 +1,27 @@
+{
+    "challenges": {
+        
+        "games": {
+            "QM Avoidance" : {
+                "name": "QM Avoidance",
+                "materials": "floor Space",
+                "How to Play": {
+                    "Duration": "5 minutes",
+                    "Age/Experience" : "6+ (Beginner)",
+                    "Intensity": "Low",
+                    "Activity Description": "Have students start on opposite sides of the floor (for younger kids) or in a circle (for older kids/adults). Their goal is to reach the other side of the floor/circle without touching any other students. If they touch another student, they get “knocked out” and have to fall to the ground.",
+                    "Coach Notes": "This is a good game for young kids and adult groups. For young kids, it can help start class of with a slow, controlled pace - kids should be encouraged to move carefully and made aware that this game is not a race. For adults, emphasize control, fluid movement, and route planning/adapting to the changing environment. This game is also a good way to consolidate the various QM techniques once they have been learned since it forces participants to use them in a variety of scenarios."
+                }
+            }
+        },
+        "drills": {
+
+        },
+        "explorations": {
+
+        },
+        "challenges": {
+
+        }
+    }
+}
