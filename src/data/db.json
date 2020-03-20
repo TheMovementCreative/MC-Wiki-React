@@ -12,6 +12,39 @@
                     "Activity Description": "Have students start on opposite sides of the floor (for younger kids) or in a circle (for older kids/adults). Their goal is to reach the other side of the floor/circle without touching any other students. If they touch another student, they get “knocked out” and have to fall to the ground.",
                     "Coach Notes": "This is a good game for young kids and adult groups. For young kids, it can help start class of with a slow, controlled pace - kids should be encouraged to move carefully and made aware that this game is not a race. For adults, emphasize control, fluid movement, and route planning/adapting to the changing environment. This game is also a good way to consolidate the various QM techniques once they have been learned since it forces participants to use them in a variety of scenarios."
                 }
+            },
+            "Cat vs crabs" : {
+                "name": "infection tag in quadrupedal",
+                "materials": "",
+                "How to Play" {
+                    "Activity Description": "Split the class into two groups. One group will play as “Cats,” the other group as “Crabs.” The Cat group will move in a cat crawl or standard QM and the Crab group will move in a crab crawl or table position for the entire game. The goal for the Crab team is to tag Cat students, turning them into Crabs. The goal for the Cats is to survive 60 seconds of play without being turned into a Crab, or to be the last Cat standing. It is essentially “zombie tag” using the cat and crab QM positions. Crabs can only tag Cats with their pincers (hands, no feet).",
+                    "Coach Notes": "Coaches should create a play area that gives Cats the ability to out-maneuver/dodge Crabs. Try to keep the play area large if possible. After each game, have students keep the same teams but switch positions (i.e. Cats become Crabs, Crabs become Cats) and play best of 5. change movement types . -gorilla - kangaroos - roly polys"
+                    }
+                },
+
+                "QM Laser Trace": {
+                    "name": "racing through a laser maze that requires good crawling techinque",
+                    "materials": "tape or paracord with bells",
+                    "How to Play": { 
+                        "Activity Description": "Coach sets a tape web varying from knee to chest-height on the average student. Students have to navigate through the tape web using various QM techniques. A course can be set for time, students can race through a course, or coaches can set a conditioningg punishment for each “laser” the student touches.",
+                        "Coach Notes": "Students can use either a variety of techniques to navigate the course or focus on one specific technique. Coaches should make sure students are challenginng themselves to maintain good technique (i.e. no knees, elbows, bellies on the ground). This game can work as a great conditioning closer for the upper body if the corurse stays close to the ground."   
+                    }
+                },
+
+                "lava Hands" : {
+                    "name": "Climbing game similar to Twister",
+                    "materials": "Wall, tape/ chalk",
+                    "Duration": "10-15 minutes",
+                    "Age/Experience": "8+ (Beginner to Advanced)",
+                    "Intensity": "Low to moderate",
+                    "Activity Description": "Choose a wide wall and use different colors of tape/chalk to outline rectangular hand “grips” at the top of the wall for students (grips can be staggered widths to add confusion). Coach counts down from three, then calls the color of the “grips” that the student should cat (i.e. 3, 2, 1, “yellow”). The student should have both hands fully inside the correctly colored rectangle – either one hand per rectangle or both hands in one rectangle. Coach can add plyos or strides into the ultimate cat leap takeoff for additional challenge.",
+                    "Coach Notes": "Coach should make sure to remind students to lead with their feet. Students should always prioritize good and safe foot contact on the wall over hand placement, especially beginner students."
+                }
+                
+               
+                
+                
+                
             }
         },
         "drills": {
