@@ -4,7 +4,7 @@ const fs = require('fs')
 
 
 const hyperLink = 'http://themovementcreative.wikidot.com'
-const catagory = 'games'
+const catagory = 'challenges'
 
 const writeStream = fs.createWriteStream("output"+catagory+".txt")
 
@@ -19,35 +19,25 @@ axios.get(pageLink).then((response) => {
     const $ = cheerio.load(response.data);
     const urlElements = $('#list-pages-box').contents().text();
 
-    //selector
-    //#page-content > div.list-pages-box > div:nth-child(1) > table > tbody > tr > td > strong > a
+   
 
-    //js Path
-    //document.querySelector("#page-content > div.list-pages-box > div:nth-child(1) > table > tbody > tr > td > strong > a")
-
-        //console.log(urlElements)
     $('div.list-pages-box a').each((i,el) => {
         const item = $(el).text()
         const link = $(el).attr('href')
         
-        //axios.get(hyperLink+"/"+el.html())
-
-
         console.log(i+": "+item + " - link = "+ hyperLink + link);
-
+        //check for nextpage element
         if(item == 'next »'){
             console.log("NEXT PAGE CALLED")
             pageParse('http://themovementcreative.wikidot.com'+link)
         }
         //check if item is a navigation element
-        if(!$(el).hasClass('pager')){ 
+        if(!$(el).parent().parent().hasClass('pager')){ 
         axios.get(hyperLink+link).then((response2) => {
 
             const $$ = cheerio.load(response2.data);
             
             const urlElements = $$('#page-content').text()
-            //game title
-            //document.querySelector("#skrollr-body > div.container-wrap-wrap > div.container-wrap > main > div > div > div > div > div.page-title.page-header > span")
             const pageTitle = $$('div.page-title.page-header').text()
             //console.log(pageTitle +urlElements)
 
