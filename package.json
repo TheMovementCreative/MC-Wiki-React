@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scrape": "node ./src/helpers/scraper.js"
+    "scrape": "node ./src/helpers/scraper.js",
+    "convert": "node ./src/helpers/converter.js"
   },
   "eslintConfig": {
     "extends": "react-app"
